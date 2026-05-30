@@ -1,0 +1,12 @@
+# Ignore the entire data directory (images, annotations, raw videos, outputs)
+data/
+
+# Ignore downloaded model weights checkpoints
+*.pt
+*.engine
+
+# Ignore local Python cache and IDE files
+__pycache__/
+.pytest_cache/
+.vscode/
+.idea/
